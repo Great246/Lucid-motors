@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@media (max-width: 640px) {
+ html {
+  scrollbar-width: none;
+}
+html ::-webkit-scrollbar {
+  display: none;
+} 
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/Jost-VariableFont_wght.ttf") format("ttf");
+  font-weight: 800;
+  font-style: inherit;
+}
+@theme {
+  --font-myfont: "MyFont", sans-serif;
+}
